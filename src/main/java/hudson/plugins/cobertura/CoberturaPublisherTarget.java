@@ -91,7 +91,7 @@ public final class CoberturaPublisherTarget {
     	}
     	else
     	{
-    		this.healthy = (float)(Math.round(healthy*100f)/100f);
+    		this.healthy = (float)((int)(Math.round(healthy*100f)/100f));
     	}
     }
 
@@ -107,7 +107,7 @@ public final class CoberturaPublisherTarget {
         }
         else
         {
-        	return (float)(Math.round(unhealthy*100f)/100f);
+        	return (float)((int)(Math.round(unhealthy*100f)/100f));
         }
     }
 
@@ -131,7 +131,7 @@ public final class CoberturaPublisherTarget {
     	}
     	else
     	{    		
-    		this.unhealthy = (float)(Math.round(unhealthy*100f)/100f);
+    		this.unhealthy = (float)((int)(Math.round(unhealthy*100f)/100f));
     	}
     }
 
@@ -147,7 +147,7 @@ public final class CoberturaPublisherTarget {
         }
         else
         {
-        	return (float)(Math.round(unstable*100f)/100f);
+        	return (float)((int)(Math.round(unstable*100f)/100f));
         }
     }
 
@@ -171,7 +171,7 @@ public final class CoberturaPublisherTarget {
     	}
     	else
     	{
-    		this.unstable = (float)(Math.round(unstable*100f)/100f);
+    		this.unstable = (float)((int)(Math.round(unstable*100f)/100f));
     	}
     }
 
